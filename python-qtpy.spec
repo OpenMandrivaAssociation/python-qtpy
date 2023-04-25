@@ -43,4 +43,4 @@ qt from qtpy instead of PyQt5.
 %license LICENSE.txt
 %{_bindir}/qtpy
 %{python_sitelib}/%{module}
-%{python_sitelib}/%{pypi_name}-%{version}-py%{python_version}.egg-info
+#{python_sitelib}/%{pypi_name}-%{version}-py%{python_version}.egg-info
