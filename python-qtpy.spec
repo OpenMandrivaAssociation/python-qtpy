@@ -2,7 +2,7 @@
 %define pypi_name QtPy
 
 Name:           python-%{module}
-Version:        2.4.2
+Version:        2.4.3
 Release:        1
 Summary:        Abstraction layer for PyQt5/PyQt4/PySide
 Group:          Development/Python
