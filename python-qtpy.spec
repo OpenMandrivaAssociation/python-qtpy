@@ -44,4 +44,4 @@ qt from qtpy instead of PyQt5.
 %license LICENSE.txt
 %{_bindir}/qtpy
 %{python_sitelib}/%{module}
-%{python_sitelib}/QtPy-%{version}.dist-info/
+#{python_sitelib}/QtPy-%{version}.dist-info/
