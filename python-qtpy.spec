@@ -12,7 +12,8 @@ Source0:        https://github.com/spyder-ide/%{module}/archive/v%{version}/%{mo
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(setuptools)
+BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 
 %{?python_provide:%python_provide python3-%{module}}
 
