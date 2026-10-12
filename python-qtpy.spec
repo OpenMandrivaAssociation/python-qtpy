@@ -3,7 +3,7 @@
 
 Name:           python-%{module}
 Version:        2.4.3
-Release:        2
+Release:        3
 Summary:        Abstraction layer for PyQt5/PyQt4/PySide
 Group:          Development/Python
 License:        MIT and BSD
